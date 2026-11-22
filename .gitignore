@@ -1,0 +1,51 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 缓存与测试产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# 日志
+logs/
+*.log
+
+# 数据库、本地配置与运行时状态
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+data/active_collection.txt
+
+# IDE 与编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+
+# 依赖与前端构建产物
+node_modules/
+frontend/node_modules/
+frontend/dist/
+semikb/static/
+
+# 文档数据，保留目录占位文件
+data/docs/*
+!data/docs/.gitkeep
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db
